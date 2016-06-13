@@ -1,0 +1,24 @@
+body {
+  padding-top: 50px;
+}
+.davlatian-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+.davlatian-template .panel{
+  text-align:left;
+}
+.page-nav-buttons-top a {
+  text-decoration: none;
+  margin-bottom: 40px;
+}
+.btn-top{
+  float: right;
+  margin-top: -25px;
+  margin-right: -10px;
+}
+
+.job-time-period {
+  float: right;
+  font-variant: small-caps;
+}
