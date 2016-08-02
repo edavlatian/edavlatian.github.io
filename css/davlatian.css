@@ -22,3 +22,23 @@ body {
   float: right;
   font-variant: small-caps;
 }
+.job-location {
+  display: block;
+  font-weight:normal;
+  font-size:small;
+}
+
+/* Modified for my needs css code from here http://bootsnipp.com/snippets/408yW */
+#accordion .panel-title > a {
+    text-decoration: none;
+    display: block;
+}
+#accordion .panel-title > a.accordion-toggle::before, #accordion a[data-toggle="collapse"]::before  {
+    content:"\e113";
+    float: right;
+    font-family: 'Glyphicons Halflings';
+	  margin-left :1em;
+}
+#accordion .panel-title > a.accordion-toggle.collapsed::before, #accordion a.collapsed[data-toggle="collapse"]::before  {
+    content:"\e114";
+}
